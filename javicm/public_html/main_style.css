@@ -1,0 +1,255 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 21, 2015, 11:50:34 AM
+    Author     : Javi Cuan
+*/
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#hi-there{
+    position:relative;
+    font-family:"proxima-nova";
+    text-align:center;
+    font-size:80px;
+    padding-top:80px;  
+    border-bottom:2px solid white; 
+}
+
+.title-header{
+    position:relative;
+    font-family:"proxima-nova";
+    text-align:center;
+    font-size:80px;
+    padding-top:80px;  
+    padding-bottom:40px;
+    border-bottom:2px solid white; 
+}
+
+.mini-title{
+    font-size:35px;
+    font-family:"proxima-nova";
+}
+
+.background1{
+    height:55em;
+    background-color:#3fb0ac; 
+}
+
+.background2{
+    background-color:#6ed3cf;
+    height:100%;
+    line-height:50px;
+}
+
+div.title-background{
+    width:100%;
+    height:69.8em;
+    background-color:#1d2120;
+    border:1em;
+}
+
+.quote{
+    font-size:30px;
+    line-height:25%;
+    color:#606060;
+}
+
+a.main-link-type{
+    z-index:1;
+    position:fixed;
+    top:28px;
+    opacity:.5;
+    color:white;
+    font-family: "proxima-nova";
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    
+    -webkit-transition:opacity .5s; /* Chrome, Safari, Opera */
+    -webkit-animation: fadein2 2s;
+    -moz-transition: opacity .5s; /* Firefox */
+    -moz-animation: fadein2 2s;
+}
+
+a.main-link-type:hover{
+    opacity:1;
+    text-decoration: none;
+}  
+
+a.emphasize-link{
+    z-index:1;
+    border: .1em solid white;
+    color:white;
+    letter-spacing:1px;
+    font-family: "proxima-nova";
+    font-size:2em;
+    padding-top:.45em;
+    padding-bottom:.45em;
+    background-color:transparent;
+    
+    -webkit-animation:fadein 2s;
+    -webkit-transition:color .5s;
+    -webkit-transition:background-color .5s;
+    -moz-animation:fadein 2s;
+    -moz-transition:color .5s;
+    -moz-transition:background-color .5s;
+}
+
+a.emphasize-link:hover{
+    color:black;
+    border-color:white;
+    background-color:white;
+    text-decoration: none;
+}
+
+#about-me{
+    position: relative;
+    font-size:30px;
+    font-family:'proxima-nova';
+    left:12%;
+    bottom:40%;
+}
+
+#detail-block{
+    font-size:30px;
+    font-family: "proxima-nova";
+    position:relative;
+    left:67%;
+    bottom:90%;
+}
+
+#profile-image{
+    width:25%;
+    height:50%;
+    vertical-align:middle;
+    display:block;
+    margin: 0 auto;
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+#facebook-img{
+    position:relative;
+    left:47%;
+    z-index:1;
+    width:50px;
+}
+
+#linkedin-img{
+    position:relative;
+    left:48%;
+    z-index:1;
+    width:50px;
+}
+
+#nav-bar{
+    z-index:1;
+    text-align:center;
+    position:fixed;
+    width:100%;
+    height:10%;
+    opacity:.5;
+    border:none;
+    background-color:gray;
+    
+    
+    -webkit-animation: fadein2 2s;
+    -moz-animation: fadein2 2s;
+}
+
+#about-link{
+    left:39%;
+}
+
+#experiences-link{
+    left:47.8%;
+}
+
+#skills-link{
+    left:63.5%;
+}
+
+#projects-link{
+    left:72.5%;
+}
+
+#contact-link{
+    position:fixed;
+    left:84%;
+    top:15px;
+    padding-left:1.62em;
+    padding-right:1.6em;
+}
+
+#main-title{
+    text-align:center;
+    font-family: "proxima-nova", serif, Arial;
+    border-width:1px;
+    border-bottom: 2px solid rgba(255, 255, 255, .5);
+    border-bottom-left-radius:1em;
+    border-bottom-right-radius:1em;
+    color:#3fb0ac;
+    font-size:6em;
+    position:relative;
+    bottom:10em;
+    
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+}
+
+#subtitle{
+    text-align:center;
+    font-family: "proxima-nova", serif, Arial;
+    color:#3fb0ac;
+    font-size:3em;
+    position:relative;
+    bottom:20em;
+    
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+}
+
+#arrow-down{
+    position:relative;
+    left:45%;
+    bottom:4em;
+    background-color:transparent;
+    border:none;
+    font-size:7em;
+    color:#3fb0ac;
+    outline:0;
+    
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -webkit-transition:bottom .5s;
+    -moz-transition:bottom .5s 
+}
+
+#arrow-down:hover{
+    bottom: 3.7em;
+}
+
+#home-img{
+    position: relative;
+    width:100%;
+    height:100%;
+    
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+}
+
+@keyframes fadein{
+    from {opacity:0}
+    to{opacity:1}
+}
+
+@keyframes fadein2{
+    from {opacity:0}
+    to{opacity:.5}
+}
