@@ -29,8 +29,8 @@ and open the template in the editor.
     <!-- Home page link navigator -->
     <div id="nav-bar"></div>
     
-    <a id="about-link" class="main-link-type" href="#first">ABOUT</a>
-    <a id="experiences-link" class="main-link-type" href="">EXPERIENCES</a>
+    <a id="about-link" class="main-link-type" href="#about">ABOUT</a>
+    <a id="experiences-link" class="main-link-type" href="#experiences">EXPERIENCES</a>
     <a id="skills-link" class="main-link-type" href="">SKILLS</a>
     <a id="projects-link" class="main-link-type" href="">PROJECTS</a>
     <a id="contact-link" class="emphasize-link" href="">CONTACT</a>
@@ -40,12 +40,12 @@ and open the template in the editor.
         <img src="images/home.jpg" alt="Home" id="home-img">
         <p id="main-title">Javier Cuan-Martinez</p>
         <p id="subtitle"> Interactive Resume</p>
-        <a href="#first" id="arrow-down"><span class="glyphicon glyphicon-chevron-down"></a>
+        <a href="#about" id="arrow-down"><span class="glyphicon glyphicon-chevron-down"></span></a>
     </div>
     
     <!-- About Page -->
-    <div class="background1">
-        <a name="first"></a>
+    <div id="first" class="background1">
+        <a name="about"></a>
         <p id='hi-there'>Hi there!</p>
         
         <img id='profile-image' class='img-circle' alt='Javier' src='images/profile.png'>
@@ -81,7 +81,10 @@ and open the template in the editor.
         </p>
     </div>
     
-    <div class="background2">
+    <!-- Experiences -->
+    
+    <div id="second" class="background2">
+        <a name="experiences"></a>
         <p class='title-header'>
             Experiences<br>
         
@@ -90,12 +93,67 @@ and open the template in the editor.
             </span>
         </p>
         
-        <p class='mini-title'>
-            <b>Education</b>
+        <!-- Education -->
+        <p id='education'>
+            <span class='mini-title'><b>Education</b></span><br>
+            <img id='harvard-img'  alt='Harvard' src='images/harvard.png'> <b>Harvard University</b><br>
+            <span id='harvard-date'>Sept. 2014 - May 2018</span><br><br><br>
+        
+            <img id='gohs-img'  alt='GOHS' src='images/gohs.png'> <span id="great-oak-title"><b>Great Oak High School</b></span><br>
+            <span id='gohs-date'>Aug. 2010 - June 2014</span><br><br>
         </p>
         
-    </div>
+        <p id='education-description'>
+            <span class='line-height-title'><b>A.B. Candidate in Computer Science with Secondary in Economics</b><br></span>
+            I am an undergraduate student who loves playing in the university band <br>
+            and eating fiery wings at the student pub. After taking the Introduction <br> 
+            to Computer Science course, I realized that I wanted to dedicate my life<br>
+            to programming.<br><br><br>
+            
+            <span id="graduated" class="line-height-title"><b>Graduated with Honors</b></span><br>
+            I studied hard and developed an affinity for math and science. I participated<br>
+            in many clubs and organizations, two of which were the marching band<br>
+            and Math Club. I served as senior drum major of the marching band and<br>
+            president of Math Club.
+        </p>
         
+        <!-- Career -->
+        <p id="career" class="mini-title"><b>Career</b></p>
+        <p id='jda'>
+            <b>Japan Digital Archives</b><br>
+            Oct. 2014 - Present
+        </p>
+        
+        <p id='jda-description-title'>
+            <b>Web Developer</b><br>
+        </p>
+        
+        <p id='jda-description'>
+            I work with a team of developers to maintain and manage the website while<br>
+            eliminating bugs and adding extra features.<br>
+            <span id="link1" class="glyphicon glyphicon-link"></span>
+            <a target="_blank" href="http://www.jdarchive.org/en/home">http://www.jdarchive.org/en/home</a>
+        </p>
+        
+        <p id="gmc">
+            <b>Global Millennial Corp.</b><br>
+            June 2015 - Aug. 2015
+        </p> 
+        
+        <p id="gmc-description-title">
+            <b>Django Software Developer</b>
+        </p>
+        
+        <p id="gmc-description">
+            I taught myself Django's model-view system using the available documentation.<br>
+            I worked in a team that used the Django framework and Nitrous work-space<br>
+            to develop a dynamic web application.<br>
+            <span id="link2" class="glyphicon glyphicon-link"></span>
+            <a target="_blank" href="http://dev.thelistamerica.com/">http://dev.thelistamerica.com/</a>
+        </p>
+        
+        <!-- Leadership -->
+    </div>
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
