@@ -31,7 +31,7 @@ and open the template in the editor.
     
     <a id="about-link" class="main-link-type" href="#about">ABOUT</a>
     <a id="experiences-link" class="main-link-type" href="#experiences">EXPERIENCES</a>
-    <a id="skills-link" class="main-link-type" href="">SKILLS</a>
+    <a id="skills-link" class="main-link-type" href="#skills">SKILLS</a>
     <a id="projects-link" class="main-link-type" href="">PROJECTS</a>
     <a id="contact-link" class="emphasize-link" href="">CONTACT</a>
     
@@ -48,7 +48,7 @@ and open the template in the editor.
         <a name="about"></a>
         <p id='hi-there'>Hi there!</p>
         
-        <img id='profile-image' class='img-circle' alt='Javier' src='images/profile.png'>
+        <img id='profile-image' class='img-circle' alt='Javier' src='images/profile.jpg'>
         
         <a target='_blank' href='https://www.facebook.com/javier.cuan'>
             <img id='facebook-img'  alt='Facebook' src='images/facebook.png'>
@@ -74,7 +74,7 @@ and open the template in the editor.
             Javier Cuan-Martinez<br>
             
             <span class='mini-title'><b>Age:</b></span><br>
-            19 years<br>
+            20 years<br>
             
             <span class='mini-title'> <b>Languages:</b></span><br>
             English, Spanish, German
@@ -82,77 +82,344 @@ and open the template in the editor.
     </div>
     
     <!-- Experiences -->
-    
     <div id="second" class="background2">
         <a name="experiences"></a>
         <p class='title-header'>
             Experiences<br>
         
             <span class="quote">"Venture outside your comfort zone. The rewards are worth it."<br> 
-                - Repunzel (<i>Tangled</i>)
+                - Rapunzel (<i>Tangled</i>)
             </span>
         </p>
         
-        <!-- Education -->
-        <p id='education'>
-            <span class='mini-title'><b>Education</b></span><br>
-            <img id='harvard-img'  alt='Harvard' src='images/harvard.png'> <b>Harvard University</b><br>
-            <span id='harvard-date'>Sept. 2014 - May 2018</span><br><br><br>
-        
-            <img id='gohs-img'  alt='GOHS' src='images/gohs.png'> <span id="great-oak-title"><b>Great Oak High School</b></span><br>
-            <span id='gohs-date'>Aug. 2010 - June 2014</span><br><br>
-        </p>
-        
-        <p id='education-description'>
-            <span class='line-height-title'><b>A.B. Candidate in Computer Science with Secondary in Economics</b><br></span>
-            I am an undergraduate student who loves playing in the university band <br>
-            and eating fiery wings at the student pub. After taking the Introduction <br> 
-            to Computer Science course, I realized that I wanted to dedicate my life<br>
-            to programming.<br><br><br>
+        <!-- Experiences -->
+        <ul id="exp-clm">
+            <!-- Education -->
+            <li class="mini-title-test" >
+                <b>Education</b>
+            </li>
+            <li>
+                <div class="exp-ind">
+                    <img id="harvard-img" alt="Harvard" src="images/harvard.png">
+                    <b id='harvard'>Harvard University</b><br>
+                    <span class="exp-date">Sept. 2014 - May 2018</span>
+                </div>
+                
+                <div class="exp-desc">
+                    <b>A.B. Candidate in Computer Science</b><br>
+                    I am an undergraduate student who loves playing in the<br> 
+                    university band and eating fiery wings at the student pub.<br> 
+                    After taking the Introduction to Computer Science course,<br>
+                    I realized that I wanted to dedicate my life to programming.
+                </div>
+            </li>
+            <li>
+                <br><br><br><br><br><br>
+                <div class="exp-ind">
+                    <img id='gohs-img'  alt='GOHS' src='images/gohs.png'>
+                    <b id='gohs'>Great Oak High School</b><br>
+                    <span id='gohs-date' class='exp-date'>Aug. 2010 - June 2014</span>
+                </div>
+                
+                <div class="exp-desc">
+                    <b>Graduated with Honors</b><br>
+                    I studied hard and developed an affinity for math and <br>
+                    science. I participated in many clubs and groups, two of<br> 
+                    which were the marching band and Math Club. I served as      <br>
+                    senior drum major of the marching band and president of<br>
+                    Math Club.
+                </div>
+            </li>
             
-            <span id="graduated" class="line-height-title"><b>Graduated with Honors</b></span><br>
-            I studied hard and developed an affinity for math and science. I participated<br>
-            in many clubs and organizations, two of which were the marching band<br>
-            and Math Club. I served as senior drum major of the marching band and<br>
-            president of Math Club.
+            <!-- Career -->
+            <li class="mini-title-test">
+                <br><br><br><br><br><br>
+                <b>Career</b>
+            </li>
+            <li>
+                <div class='exp-ind'>
+                    <b class='exp-title'>Japan Digital Archives</b><br><br>
+                    <span id='jda-date' class='exp-date'>Oct. 2014 - Present</span>
+                </div>
+                
+                <div class='exp-desc'>
+                    <b>Web Developer</b><br>
+                    I work with a team of developers to maintain and manage<span class='invisible'>...</span><br>
+                    the website while eliminating bugs and adding extra<br> features.<br>
+                    <span class="glyphicon glyphicon-link exp-link"></span>
+                    <a target="_blank" href="http://www.jdarchive.org/en/home">http://www.jdarchive.org/</a>
+                </div>
+            </li>
+            <li>
+                <br><br><br><br><br><br>
+                <div class='exp-ind'>
+                    <b class='exp-title'>Global Millennial Corp.</b><br><br>
+                    <span id='gmc-date' class='exp-date'>June 2015 - Aug. 2015</span>
+                </div>
+                
+                <div class='exp-desc'>
+                    <b>Django Software Developer</b><br>
+                    I taught myself Django's model-view system using the<span class='invisible'>........</span><br> 
+                    available documentation. I worked in a team that<br> 
+                    used the Django framework and Nitrous work-space<br>
+                    to develop a dynamic web application.<br>
+                    <span class="glyphicon glyphicon-link exp-link"></span>
+                    <a target="_blank" href="https://www.facebook.com/thelistnightlife/?fref=ts">https://www.facebook.com/thelistnightlife/</a>
+                </div>
+            </li>
+            <li>
+                <br><br><br><br><br><br><br>
+                <div class='exp-ind'>
+                    <b class='exp-title'>Rheinisch-Westfälisches Elektrizitätswerk</b><br>
+                    <span id="ruhr-date">June 2016 - Aug. 2016</span>
+                </div>
+                
+                <div class="exp-desc">
+                    <b>Tech Intern</b><br>
+                    Out of a pool of applicants from various elite schools, I was<br>
+                    selected to participate in the Ruhr Fellowship Program in<br> 
+                    Germany. Rheinisch-Westfälisches Elektrizitätswerk is one<br> 
+                    of the partner companies, and I was given the opportunity<br> 
+                    to work with RWE on several tech projects that helped<br>
+                    manage electricity in the Ruhr Valley.<br>
+                    <span class="glyphicon glyphicon-link exp-link"></span>
+                    <a target="_blank" href="http://www.rwe.com/web/cms/en/8/rwe/">http://www.rwe.com/</a>
+                </div>
+            </li>
+            
+            <!-- Leadership -->
+            <li class="mini-title-test">
+                <br><br><br><br><br><br><br><br>
+                <b>Leadership</b>
+            </li>
+            <li>
+                <div class="exp-ind">
+                    <b class='exp-title'>Harvard Computer Society</b><br>
+                    <span id="hcs-date">Sept. 2014 - Present</span>
+                </div>
+                
+                <div class="exp-desc">
+                    <b>Director of External Relations</b><br>
+                    I work with companies in order to reach sponsorship<br> 
+                    deals and monetary agreements that benefit HCS.<br>
+                    I also started the first intercollegiate collaboration<br>
+                    between technology clubs in schools such as MIT.<br><br>
+                    
+                    <b>Director of Communications</b><br>
+                    I advertised events related to HCS to the student body<br> 
+                    using various mediums. Using HTML/CSS, I made<br>
+                    interactive newsletters that would attract the attention of<span class="invisible">.....</span><br> 
+                    our viewers.<br>
+                    <span class="glyphicon glyphicon-link exp-link"></span>
+                    <a target="_blank" href="https://www.hcs.harvard.edu/">https://www.hcs.harvard.edu/</a>
+                </div>
+            </li>
+        </ul>        
+    </div>
+    
+    <!-- Skills -->
+    <div id='third' class="background1">
+        <a name="skills"></a>
+        
+        <p class='title-header'>
+            Skills<br>
+        
+            <span class="quote">"The problem is not the problem. The problem is your attitude about the problem."<br> 
+                - Captain Jack Sparrow (<i>Pirates of the Caribbean</i>)
+            </span>
         </p>
         
-        <!-- Career -->
-        <p id="career" class="mini-title"><b>Career</b></p>
-        <p id='jda'>
-            <b>Japan Digital Archives</b><br>
-            Oct. 2014 - Present
-        </p>
+        <form method="get" action="file.doc">
+            <button type="submit" id="resume" class="btn btn-primary">Download pdf resume</button>
+        </form>
+       
+        <ul id="skills-col1">
+            <li>
+                <div class="skill-ind">
+                    Python
+                </div>
+                                
+                <div class="blaze">
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                </div>
+            </li>
+            <li>
+                <div class="skill-ind">
+                    Django
+                </div>
+                
+                <div class="blaze">
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire"></span>
+                </div>
+            </li>
+            <li>
+                <div class="skill-ind">
+                    HTML(5)
+                </div>
+                
+                <div class="blaze">
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                </div>
+            </li>
+            <li>
+                <div class="skill-ind">
+                    CSS(3)
+                </div>
+                
+                <div class="blaze">
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                </div>
+            </li>
+            <li>
+                <div class="skill-ind">
+                    C
+                </div>
+                
+                <div class="blaze">
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire"></span>
+                </div>
+            </li>
+            <li>
+                <div class="skill-ind">
+                    OCaml
+                </div>
+                
+                <div class="blaze">
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire"></span>
+                    <span class="glyphicon glyphicon-fire"></span>
+                </div>
+            </li>
+            <li>
+                <div class="skill-ind">
+                    Game Development
+                </div>
+                
+                <div class="blaze">
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                </div>
+            </li>
+        </ul>
         
-        <p id='jda-description-title'>
-            <b>Web Developer</b><br>
-        </p>
-        
-        <p id='jda-description'>
-            I work with a team of developers to maintain and manage the website while<br>
-            eliminating bugs and adding extra features.<br>
-            <span id="link1" class="glyphicon glyphicon-link"></span>
-            <a target="_blank" href="http://www.jdarchive.org/en/home">http://www.jdarchive.org/en/home</a>
-        </p>
-        
-        <p id="gmc">
-            <b>Global Millennial Corp.</b><br>
-            June 2015 - Aug. 2015
-        </p> 
-        
-        <p id="gmc-description-title">
-            <b>Django Software Developer</b>
-        </p>
-        
-        <p id="gmc-description">
-            I taught myself Django's model-view system using the available documentation.<br>
-            I worked in a team that used the Django framework and Nitrous work-space<br>
-            to develop a dynamic web application.<br>
-            <span id="link2" class="glyphicon glyphicon-link"></span>
-            <a target="_blank" href="http://dev.thelistamerica.com/">http://dev.thelistamerica.com/</a>
-        </p>
-        
-        <!-- Leadership -->
+        <ul id="skills-col2">
+            <li>
+                <div class="skill-ind">
+                    Linux
+                </div>
+                
+                <div class="blaze">
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire"></span>
+                </div>
+            </li>
+            <li>
+                <div class="skill-ind">
+                    Version Control (GIT)
+                </div>
+                
+                <div class="blaze">
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire"></span>
+                </div>
+            </li>
+            <li>
+                <div class="skill-ind">
+                    MATLAB
+                </div>
+                
+                <div class="blaze">
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire"></span>
+                    <span class="glyphicon glyphicon-fire"></span>
+                </div>
+            </li>
+            <li>
+                <div class="skill-ind">
+                    Javascript
+                </div>
+                
+                 <div class="blaze">
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                </div>
+            </li>
+            <li>
+                <div class="skill-ind">
+                    jQuery
+                </div>
+                
+                <div class="blaze">
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire"></span>
+                    <span class="glyphicon glyphicon-fire"></span>
+                </div>
+            </li>
+            <li>
+                <div class="skill-ind">
+                    Algorithms
+                </div>
+                
+                <div class="blaze">
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire"></span>
+                </div>
+            </li>
+            <li>
+                <div class="skill-ind">
+                    Latex
+                </div>
+                
+                <div class="blaze">
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                    <span class="glyphicon glyphicon-fire fire"></span>
+                </div>
+            </li>
+        </ul>
     </div>
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

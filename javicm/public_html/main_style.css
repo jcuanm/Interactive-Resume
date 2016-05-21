@@ -10,76 +10,9 @@ and open the template in the editor.
 body{
     max-width: 100%;
     overflow-x: hidden;
-    font-family: "proxima-nova";
+    font-family: sans-serif;
     zoom:100%;
 }
-
-.title-header{
-    position:relative;
-    text-align:center;
-    font-size:80px;
-    padding-top:105px;  
-    padding-bottom:40px;
-    border-bottom:2px solid white; 
-}
-
-.mini-title{
-    font-size:36px;
-    color:#055A79;
-    
-}
-
-.background1{
-    background-color:#3fb0ac; 
-}
-
-.background2{
-    background-color:#6ed3cf;
-    line-height:50px;
-}
-
-div.title-background{
-    width:100%;
-    height:69.8em;
-    background-color:#1d2120;
-    border:1em;
-}
-
-.quote{
-    font-size:30px;
-    line-height:25%;
-    color:#606060;
-}
-
-#link1{
-    color:hotpink;
-}
-
-#link2{
-    color:hotpink;
-}
-
-a.main-link-type{
-    z-index:2;
-    position:fixed;
-    top:28px;
-    opacity:.5;
-    color:white;
-    
-    font-size: 2em;
-    text-transform: uppercase;
-    letter-spacing: .2em;
-    
-    -webkit-transition:opacity .5s; /* Chrome, Safari, Opera */
-    -webkit-animation: fadein2 1.5s;
-    -moz-transition: opacity .5s; /* Firefox */
-    -moz-animation: fadein2 1.5s;
-}
-
-a.main-link-type:hover{
-    opacity:1;
-    text-decoration: none;
-}  
 
 a.emphasize-link{
     z-index:2;
@@ -106,62 +39,218 @@ a.emphasize-link:hover{
     text-decoration: none;
 }
 
-.line-height-title{
+a.emphasize-link{
+    z-index:2;
+    border: .1em solid white;
+    color:white;
+    letter-spacing:1px;
+    font-size:2em;
+    padding-top:.45em;
+    padding-bottom:.45em;
+    background-color:transparent;
+    
+    -webkit-animation:fadein 2s;
+    -webkit-transition:color .5s;
+    -webkit-transition:background-color .5s;
+    -moz-animation:fadein 2s;
+    -moz-transition:color .5s;
+    -moz-transition:background-color .5s;
+}
+
+a.emphasize-link:hover{
+    color:black;
+    border-color:white;
+    background-color:white;
+    text-decoration: none;
+}
+
+a.main-link-type{
+    z-index:2;
+    position:fixed;
+    top:28px;
+    opacity:.5;
+    color:white;
+    
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    
+    -webkit-transition:opacity .5s; /* Chrome, Safari, Opera */
+    -webkit-animation: fadein2 1.5s;
+    -moz-transition: opacity .5s; /* Firefox */
+    -moz-animation: fadein2 1.5s;
+}
+
+a.main-link-type:hover{
+    opacity:1;
+    text-decoration: none;
+}  
+
+a.main-link-type{
+    z-index:2;
+    position:fixed;
+    top:28px;
+    opacity:.5;
+    color:white;
+    
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    
+    -webkit-transition:opacity .5s; /* Chrome, Safari, Opera */
+    -webkit-animation: fadein2 1.5s;
+    -moz-transition: opacity .5s; /* Firefox */
+    -moz-animation: fadein2 1.5s;
+}
+
+a.main-link-type:hover{
+    opacity:1;
+    text-decoration: none;
+}  
+
+.background1{
+    background-color:#3fb0ac;
+    width:100%;
+    background-size:cover
+}
+
+.background2{
+    width:100%;
+    background-color:#6ed3cf;
     line-height:50px;
+    background-size:cover
 }
 
-#first{
-    height:55em;
+.blaze{
+    display:block;
+    float:right;
 }
 
-#second{
-    height:130em;
+div.title-background{
+    width:100%;
+    height:69.8em;
+    background-color:#1d2120;
+    border:1em;
 }
 
-#hi-there{
+.exp-date{
+    position:relative;
+    font-size:28px;
+    margin-left:82px;
+    bottom:28px;
+    left:20px;
+}
+
+.exp-desc{
+    display:block;
+    float:right;
+    font-size:28px
+}
+
+.exp-ind{
+    display:block;
+    float:left;
+    font-size:28px
+}
+
+.exp-title{
+    position:relative;
+    left:105px;
+}
+
+.fire{
+    color:red;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;    
+}
+
+.invisible{
+    visibility:hidden
+}
+
+.exp-link{
+    color:hotpink
+}
+
+.mini-title{
+    position:relative;
+    font-size:36px;
+    color:#055A79;
+}
+
+.mini-title-test{
+    font-size:36px;
+    color:#055A79;
+    padding-bottom:20px;
+    padding-top:20px;
+    margin-left:100px
+}
+
+.quote{
+    font-size:30px;
+    line-height:25%;
+    color:#606060;
+}
+
+.skill-ind{
+    display:block;
+    float:left
+}
+
+.title-header{
     position:relative;
     text-align:center;
     font-size:80px;
-    padding-top:80px;  
+    padding-top:105px;  
+    padding-bottom:40px;
     border-bottom:2px solid white; 
+}
+
+#about-link{
+    left:39%;
 }
 
 #about-me{
     position: relative;
     font-size:28px;
-    left:12%;
-    bottom:40%;
+    left:7%;
+    bottom:67%;
 }
 
-#career{
+#arrow-down{
     position:relative;
-    left:20%;
-    bottom:25%;
+    left:45%;
+    bottom:4em;
+    background-color:transparent;
+    border:none;
+    font-size:7em;
+    color:#3fb0ac;
+    outline:0;
+    
+    -webkit-animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -webkit-transition:bottom .5s;
+    -moz-transition:bottom .5s 
+}
+
+#arrow-down:hover{
+    bottom: 3.7em;
+}
+
+#contact-link{
+    position:fixed;
+    left:84%;
+    top:15px;
+    padding-left:1.62em;
+    padding-right:1.6em;
 }
 
 #detail-block{
     font-size:28px;
     position:relative;
     left:67%;
-    bottom:90%;
-}
-
-#profile-image{
-    width:25%;
-    height:50%;
-    vertical-align:middle;
-    display:block;
-    margin: 0 auto;
-    padding-top:60px;
-    padding-bottom:60px;
-}
-
-#education{
-    position: relative;
-    padding-top:25px;
-    left:20%;
-    font-size:28px;
-    line-height:60px;
+    bottom:114%
 }
 
 #education-description{
@@ -173,76 +262,46 @@ a.emphasize-link:hover{
     line-height:40px;
 }
 
+#experiences-link{
+    left:47.8%;
+}
+
+#exp-clm{
+    list-style-type: none;
+    width:1550px;
+    margin:auto;
+}
+
 #facebook-img{
     position:relative;
+    bottom:20px;
     left:47%;
     z-index:1;
     width:50px;
 }
 
-#linkedin-img{
-    position:relative;
-    left:48%;
-    z-index:1;
-    width:50px;
+#first{
+    height:58em;
 }
 
-#harvard-img{
-    position:relative;
-    width:4%;
-    height:4%;
-    right:10px;
-    top:20px;
+#gmc-date{
+    bottom:50px;
 }
 
-#harvard-date{
+#gohs{
     position:relative;
-    left:4.3%;
-    bottom:35px;
-}
-
-#gmc{
-    position:relative;
-    left:20%;
-    bottom:28%;
-    font-size:28px;
-}
-
-#gmc-description{
-    position:relative;
-    left:45%;
-    bottom:34.3%;
-    font-size:28px;
-    line-height:40px;    
-}
-
-#gmc-description-title{
-    position:relative;
-    left:45%;
-    bottom:34%;
-    font-size:28px;
-}
-
-#gohs-img{
-    width:8%;
-    height:8%;
-    position:relative;
-    right:4.5%;
-    bottom:5px;
-    float:left;
-    padding-right:0px;
+    right:50px;
+    bottom:25px 
 }
 
 #gohs-date{
-    position:relative;
-    right:4%;
-    top:15px;
+   bottom:54px;
 }
 
-#great-oak-title{
+#gohs-img{
     position:relative;
-    right:4%;
-    top:25px;
+    width:145px;
+    right:65px; 
 }
 
 #graduated{
@@ -250,27 +309,65 @@ a.emphasize-link:hover{
     bottom:5px;
 }
 
-#jda{
+#harvard{
     position:relative;
-    left:20%;
-    bottom:24%;
-    font-size:28px;
+    bottom:12px;
+    left:13px;
 }
 
-#jda-description-title{
-    font-size:28px;
+#harvard-img{
     position:relative;
-    bottom:30%;
-    left:45%;
-    padding-bottom:6px
+    width:73px;
+    margin-right:10px; 
 }
 
-#jda-description{
-    font-size:28px;
+#hcs-date{
     position:relative;
-    bottom:30.7%;
-    left:45%;
-    line-height:40px;
+    left:105px;
+}
+
+#hi-there{
+    position:relative;
+    text-align:center;
+    font-size:80px;
+    padding-top:80px;  
+    border-bottom:2px solid white; 
+}
+
+#home-img{
+    position: relative;
+    width:100%;
+    height:100%;
+    
+    -webkit-animation: fadein 1.5s;
+    -moz-animation: fadein 1.5s;
+}
+
+#jda-date{
+    bottom:50px;
+}
+
+#linkedin-img{
+    position:relative;
+    bottom:20px;
+    left:48%;
+    z-index:1;
+    width:50px;
+}
+
+#main-title{
+    text-align:center;
+    border-width:1px;
+    border-bottom: 2px solid rgba(255, 255, 255, .5);
+    border-bottom-left-radius:1em;
+    border-bottom-right-radius:1em;
+    color:#3fb0ac;
+    font-size:6em;
+    position:relative;
+    bottom:10em;
+    
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
 }
 
 #nav-bar{
@@ -288,44 +385,87 @@ a.emphasize-link:hover{
     -moz-animation: fadein2 2s;
 }
 
-#about-link{
-    left:39%;
-}
-
-#experiences-link{
-    left:47.8%;
-}
-
-#skills-link{
-    left:63.5%;
+#profile-image{
+    width:25%;
+    height:67%;
+    vertical-align:middle;
+    display:block;
+    margin: 0 auto;
+    padding-top:60px;
+    padding-bottom:45px;
 }
 
 #projects-link{
     left:72.5%;
 }
 
-#contact-link{
-    position:fixed;
-    left:84%;
-    top:15px;
-    padding-left:1.62em;
-    padding-right:1.6em;
+#resume{
+    position:relative;
+    margin-top:50px;
+    margin-left:45.5%;
+    padding:10px 10px;
+    font-size:20px
 }
 
-#main-title{
-    text-align:center;
-    font-family: "proxima-nova", serif, Arial;
-    border-width:1px;
-    border-bottom: 2px solid rgba(255, 255, 255, .5);
-    border-bottom-left-radius:1em;
-    border-bottom-right-radius:1em;
-    color:#3fb0ac;
-    font-size:6em;
+#ruhr-date{
     position:relative;
-    bottom:10em;
-    
-    -webkit-animation: fadein 2s;
-    -moz-animation: fadein 2s;
+    left:105px;
+}
+
+#second{
+    height:2840px;
+}
+
+#skills-col1{
+    font-size:28px;
+    list-style-type: none;
+    width:600px;
+    margin-top:50px;
+    margin-left:200px;
+    float:left
+}
+
+#skills-col1 li{
+    height:70px;
+    padding:5px 15px 5px 15px;
+}
+
+#skills-col1 li:hover{
+    background-color: #05D3DA;
+}
+
+#skills-col1 li:hover .fire{
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    transform:rotate(360deg)
+}
+
+#skills-col2{
+    font-size:28px;
+    list-style-type: none;
+    width:600px;
+    margin-top:50px;
+    margin-right:200px;
+    float:right
+}
+
+#skills-col2 li{
+    height:70px;
+    padding:5px 15px 5px 15px;
+}
+
+#skills-col2 li:hover{
+    background-color: #05D3DA;
+}
+
+#skills-col2 li:hover .fire{
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    transform:rotate(360deg)
+}
+
+#skills-link{
+    left:63.5%;
 }
 
 #subtitle{
@@ -339,33 +479,9 @@ a.emphasize-link:hover{
     -moz-animation: fadein 2s;
 }
 
-#arrow-down{
-    position:relative;
-    left:45%;
-    bottom:4em;
-    background-color:transparent;
-    border:none;
-    font-size:7em;
-    color:#3fb0ac;
-    outline:0;
-    
-    -webkit-animation: fadein 2s;
-    -moz-animation: fadein 2s;
-    -webkit-transition:bottom .5s;
-    -moz-transition:bottom .5s 
-}
-
-#arrow-down:hover{
-    bottom: 3.7em;
-}
-
-#home-img{
-    position: relative;
-    width:100%;
-    height:100%;
-    
-    -webkit-animation: fadein 1.5s;
-    -moz-animation: fadein 1.5s;
+#third{
+    position:absolute;
+    line-height:50px
 }
 
 @keyframes fadein{
