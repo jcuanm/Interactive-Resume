@@ -118,7 +118,7 @@ a.main-link-type:hover{
     width:100%;
     background-color:#6ed3cf;
     line-height:50px;
-    background-size:cover
+    
 }
 
 .blaze{
@@ -282,6 +282,11 @@ div.title-background{
 
 #first{
     height:58em;
+}
+
+#fourth{
+    position:absolute;
+    height:2840px;
 }
 
 #gmc-date{
@@ -480,8 +485,8 @@ div.title-background{
 }
 
 #third{
-    position:absolute;
-    line-height:50px
+    line-height:50px;
+    height:960px
 }
 
 @keyframes fadein{
