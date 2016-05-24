@@ -198,6 +198,10 @@ div.title-background{
     float:left
 }
 
+.text-center{
+    text-align:center;
+}
+
 .title-header{
     position:relative;
     text-align:center;
@@ -236,6 +240,11 @@ div.title-background{
 
 #arrow-down:hover{
     bottom: 3.7em;
+}
+
+#build{
+    position:relative;
+    top:15px;
 }
 
 #contact-link{
@@ -404,14 +413,6 @@ div.title-background{
     left:72.5%;
 }
 
-#resume{
-    position:relative;
-    margin-top:50px;
-    margin-left:45.5%;
-    padding:10px 10px;
-    font-size:20px
-}
-
 #ruhr-date{
     position:relative;
     left:105px;
@@ -426,7 +427,7 @@ div.title-background{
     list-style-type: none;
     width:600px;
     margin-top:50px;
-    margin-left:200px;
+    margin-left:180px;
     float:left
 }
 
@@ -450,7 +451,7 @@ div.title-background{
     list-style-type: none;
     width:600px;
     margin-top:50px;
-    margin-right:200px;
+    margin-right:220px;
     float:right
 }
 
