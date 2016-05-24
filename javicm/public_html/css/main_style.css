@@ -198,10 +198,6 @@ div.title-background{
     float:left
 }
 
-.text-center{
-    text-align:center;
-}
-
 .title-header{
     position:relative;
     text-align:center;
@@ -453,6 +449,12 @@ div.title-background{
     margin-top:50px;
     margin-right:220px;
     float:right
+}
+
+.boot-test{
+    background-color:red;
+    height:300px;
+    padding:10px;
 }
 
 #skills-col2 li{
