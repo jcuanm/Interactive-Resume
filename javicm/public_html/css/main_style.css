@@ -153,6 +153,10 @@ div.title-background{
     font-size:28px
 }
 
+.exp-link{
+    color:hotpink
+}
+
 .exp-title{
     position:relative;
     left:105px;
@@ -169,10 +173,6 @@ div.title-background{
     visibility:hidden
 }
 
-.exp-link{
-    color:hotpink
-}
-
 .mini-title{
     position:relative;
     font-size:36px;
@@ -185,6 +185,21 @@ div.title-background{
     padding-bottom:20px;
     padding-top:20px;
     margin-left:100px
+}
+
+.project{
+    height:400px;
+    width:275px;
+}
+
+.projects-ind-left{
+    display:block;
+    float:left;
+}
+
+.projects-ind-right{
+    display:block;
+    float:right;
 }
 
 .quote{
@@ -241,6 +256,7 @@ div.title-background{
 #build{
     position:relative;
     top:15px;
+    font-size:23px;
 }
 
 #contact-link{
@@ -290,8 +306,7 @@ div.title-background{
 }
 
 #fourth{
-    position:absolute;
-    height:2840px;
+    height:1880px;
 }
 
 #gmc-date{
@@ -405,6 +420,18 @@ div.title-background{
     padding-bottom:45px;
 }
 
+#projects-clm{
+    list-style-type: none;
+    width:800px;
+    margin:auto;
+    padding-top:30px;
+    padding-right:40px;
+}
+
+#projects-clm div:hover{
+    do something
+}
+
 #projects-link{
     left:72.5%;
 }
@@ -423,7 +450,7 @@ div.title-background{
     list-style-type: none;
     width:600px;
     margin-top:50px;
-    margin-left:180px;
+    margin-left:140px;
     float:left
 }
 
@@ -447,14 +474,8 @@ div.title-background{
     list-style-type: none;
     width:600px;
     margin-top:50px;
-    margin-right:220px;
+    margin-right:180px;
     float:right
-}
-
-.boot-test{
-    background-color:red;
-    height:300px;
-    padding:10px;
 }
 
 #skills-col2 li{
