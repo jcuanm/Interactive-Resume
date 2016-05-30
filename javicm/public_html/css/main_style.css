@@ -10,7 +10,8 @@ and open the template in the editor.
 body{
     max-width: 100%;
     overflow-x: hidden;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 350;
     zoom:100%;
 }
 
@@ -92,7 +93,7 @@ a.main-link-type{
     top:28px;
     opacity:.5;
     color:white;
-    
+    text-decoration:none;
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: .2em;
@@ -105,7 +106,6 @@ a.main-link-type{
 
 a.main-link-type:hover{
     opacity:1;
-    text-decoration: none;
 }  
 
 .background1{
@@ -125,6 +125,35 @@ a.main-link-type:hover{
     display:block;
     float:right;
 }
+
+.bubble{
+position: relative;
+opacity:0;
+font-size:21px;
+text-align:center;
+line-height:30px;
+width: 140px;
+height: 70px;
+padding: 0px;
+background: #FFFFFF;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.bubble:after{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 15px 15px 0;
+border-color: #FFFFFF transparent;
+display: block;
+width: 0;
+z-index: 1;
+bottom: -15px;
+left: 37px;
+}
+
 
 div.title-background{
     width:100%;
@@ -229,6 +258,18 @@ div.title-background{
     position:absolute;
 }
 
+.projects-ind-left a{
+    opacity:1;
+    font-size:18px;
+    
+    color:red;
+    float:left;
+}
+
+.projects-ind-left:hover a{
+    opacity:1;
+}
+
 .projects-ind-left:hover .git{
     opacity:1;
     transition: opacity .5s ease-in-out;
@@ -328,6 +369,11 @@ div.title-background{
     bottom:67%;
 }
 
+#algorithms{
+    font-size:18px;
+    line-height:40px;
+}
+
 #arrow-down{
     position:relative;
     left:45%;
@@ -346,6 +392,15 @@ div.title-background{
 
 #arrow-down:hover{
     bottom: 3.7em;
+}
+
+#bubble1{
+    margin-top:210px;
+}
+
+#bubble2{
+    margin-left:95px;
+    bottom:70px;
 }
 
 #build{
@@ -402,6 +457,18 @@ div.title-background{
 
 #fourth{
     height:1880px;
+}
+
+#git-cat1{
+    position:absolute;
+    margin-left:0px;
+    margin-top:15px;
+}
+
+#git-cat2{
+    position:absolute;
+    margin-left:0px;
+    margin-top:15px;
 }
 
 #gmc-date{
@@ -523,12 +590,41 @@ div.title-background{
     padding-right:315px;
 }
 
-#projects-clm div:hover{
-    do something
-}
-
 #projects-link{
     left:72.5%;
+}
+
+#react{
+    height:100px;
+    width:70px;
+    margin-top:280px;
+    background-color:red;
+    position:absolute;
+}
+
+#react:hover ~ #bubble1{
+    opacity:1;
+
+    transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+}
+
+#react2{
+    height:100px;
+    width:70px;
+    
+    margin-left:100px;
+    background-color:blue;
+    position:absolute;
+}
+
+#react2:hover ~ #bubble2{
+    opacity:1;
+
+    transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
 }
 
 #ruhr-date{
