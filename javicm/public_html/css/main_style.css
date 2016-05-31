@@ -43,6 +43,7 @@ a.emphasize-link:hover{
 a.emphasize-link{
     z-index:2;
     border: .1em solid white;
+    text-decoration:none;
     color:white;
     letter-spacing:1px;
     font-size:2em;
@@ -235,7 +236,7 @@ div.title-background{
     margin-top:250px;
     margin-left:155px;
     opacity:0;
-    z-index:10;
+    z-index:1;
 
     transition: opacity .5s ease-in-out;
     -moz-transition: opacity .5s ease-in-out;
@@ -380,7 +381,7 @@ div.title-background{
     height:40px;
     width:70px;
     position:absolute;
-    z-index:5;
+    z-index:1;
 
     transition: opacity .5s ease-in-out;
     -moz-transition: opacity .5s ease-in-out;
@@ -483,6 +484,10 @@ div.title-background{
     left:47%;
     z-index:1;
     width:50px;
+}
+
+#fifth{
+    line-height:58px;
 }
 
 #first{
