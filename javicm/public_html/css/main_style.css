@@ -155,6 +155,35 @@ left: 37px;
 }
 
 
+.bubble-second{
+position: relative;
+opacity:0;
+font-size:21px;
+text-align:center;
+line-height:30px;
+width: 140px;
+height: 70px;
+padding: 0px;
+background: #FFFFFF;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.bubble-second:after{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 15px 14px 0;
+border-color: #FFFFFF transparent;
+display: block;
+width: 0;
+z-index: 1;
+bottom: -15px;
+left: 73px;
+}
+
+
 div.title-background{
     width:100%;
     height:69.8em;
@@ -399,8 +428,13 @@ div.title-background{
 }
 
 #bubble2{
-    margin-left:95px;
+    margin-left:83px;
     bottom:70px;
+}
+
+#bubble3{
+    margin-left:135px;
+    bottom:140px;
 }
 
 #build{
@@ -467,8 +501,14 @@ div.title-background{
 
 #git-cat2{
     position:absolute;
-    margin-left:0px;
+    left:-170px;
     margin-top:15px;
+}
+
+#git-cat3{
+    position:absolute;
+    margin-left:-33px;
+    bottom:-15px;
 }
 
 #gmc-date{
@@ -506,6 +546,10 @@ div.title-background{
     position:relative;
     width:73px;
     margin-right:10px; 
+}
+
+#hcs-cat{
+    margin-left:85px;
 }
 
 #hcs-date{
@@ -598,7 +642,7 @@ div.title-background{
     height:100px;
     width:70px;
     margin-top:280px;
-    background-color:red;
+    background-color:none;
     position:absolute;
 }
 
@@ -613,13 +657,29 @@ div.title-background{
 #react2{
     height:100px;
     width:70px;
-    
     margin-left:100px;
-    background-color:blue;
+    background-color:none;
     position:absolute;
 }
 
 #react2:hover ~ #bubble2{
+    opacity:1;
+
+    transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+}
+
+#react3{
+    height:100px;
+    width:70px;
+    margin-top:-70px;
+    margin-left:205px;
+    background-color:none;
+    position:absolute;
+}
+
+#react3:hover ~ #bubble3{
     opacity:1;
 
     transition: opacity .5s ease-in-out;
@@ -633,7 +693,7 @@ div.title-background{
 }
 
 #second{
-    height:2840px;
+    height:3080px;
 }
 
 #skills-col1{
