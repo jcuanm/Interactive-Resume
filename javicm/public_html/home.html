@@ -41,7 +41,9 @@ and open the template in the editor.
         <img src="images/home.jpg" alt="Home" id="home-img">
         <p id="main-title">Javier Cuan-Martinez</p>
         <p id="subtitle"> Interactive Resume</p>
-        <a href="#about" id="arrow-down"><span class="glyphicon glyphicon-chevron-down"></span></a>
+        <div class="text-center">
+            <a href="#about" id="arrow-down"><span class="glyphicon glyphicon-chevron-down"></span></a>
+        </div>
     </div>
     
     <!-- About Page -->
@@ -49,29 +51,41 @@ and open the template in the editor.
         <a name="about"></a>
         <p id='hi-there'>Hi there!</p>
         
-        <img id='profile-image' class='img-circle' alt='Javier' src='images/profile.jpg'>
-        
-        <p id='about-me'>
-            <span class='mini-title' ><b>About me:</b></span><br>
-            I am a hard-worker with an eye for<br>
-            perfection and a people-oriented <br>
-            person who enjoys engaging with others<br>
-            in a team. When I'm not studying for my<br>
-            classes, I like to work-out and play on my <br>
-            alto-saxophone (not at the same time). If <br>
-            life permits, my friends and I go into Boston <br>
-            to have a good time and take in the sights. 
-        </p>
-        <p id='detail-block'>
-            <span class='mini-title'><b>Name:</b></span><br>
-            Javier Cuan-Martinez<br>
-            
-            <span class='mini-title'><b>Age:</b></span><br>
-            20 years<br>
-            
-            <span class='mini-title'> <b>Languages:</b></span><br>
-            English, Spanish, German
-        </p>
+        <ul id="about-me-clm">
+            <li>
+                <br>
+                <div class="floating-left">
+                    <p id="about-me">
+                        <span class='mini-title' ><b>About me:</b></span><br>
+                        I am a hard-worker with an eye for<br>
+                        perfection and a people-oriented <br>
+                        person who enjoys engaging with others<br>
+                        in a team. When I'm not studying for my<br>
+                        classes, I like to work-out and play on my <br>
+                        alto-saxophone (not at the same time). If <br>
+                        life permits, my friends and I go into Boston <br>
+                        to have a good time and take in the sights.    
+                    </p>
+                </div>
+
+                <div class="floating-right">
+                    <p id='detail-block'>
+                        <span class='mini-title'><b>Name:</b></span><br>
+                        Javier Cuan-Martinez<br>
+                        
+                        <span class='mini-title'><b>Age:</b></span><br>
+                        20 years<br>
+                        
+                        <span class='mini-title'> <b>Languages:</b></span><br>
+                        English, Spanish, German
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <img id='profile-image' class='img-circle' alt='Javier' src='images/profile.jpg'>
+            </li>
+    </ul>
     </div>
     
     <!-- Experiences -->
@@ -169,7 +183,7 @@ and open the template in the editor.
                 
                 <div class="exp-desc">
                     <b>Tech Intern</b><br>
-                    Out of a pool of applicants from various elite schools, I<span class='invisible'>......</span><br>
+                    Out of a pool of applicants from various elite schools, I<span class='invisible'>.......</span><br>
                     was selected to participate in the Ruhr Fellowship <br> 
                     Program in Germany. Rheinisch-Westfälisches<br> 
                     Elektrizitätswerk is one of the partner companies, <br> 
@@ -531,21 +545,36 @@ and open the template in the editor.
 
     <div id="fifth" class="background1">
         <a name="contact"></a>
-        <p class='title-header'>
+        <p id="light" class='title-header'>
             Contact<br>
         
             <span class="quote">"One for the money, two for the show, three because uh - uh, comes before four, and here we go!"<br> 
                 - Tigger (<i>Winnie the Pooh</i>)
             </span>
-        </p>
+        </p><br>
 
-        <a target='_blank' href='https://www.facebook.com/javier.cuan'>
-            <img id='facebook-img'  alt='Facebook' src='images/facebook.png'>
-        </a>
-        
-        <a target='_blank' href='https://www.linkedin.com/in/javiercuanmartinez'>
-            <img id='linkedin-img'  alt='Linkedin' src='images/linkedin.png'>
-        </a>
+        <ul id="contact">
+            <li>
+                <div class="skill-ind">
+                    <a target='_blank' href='https://www.facebook.com/javier.cuan'>
+                        <img id='facebook-img'  alt='Facebook' src='images/facebook.png'>
+                    </a>
+                </div>
+
+                <div class="blaze">
+                    <a target='_blank' href='https://www.linkedin.com/in/javiercuanmartinez'>
+                        <img id='linkedin-img'  alt='Linkedin' src='images/linkedin.png'>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div id="space">
+                    <a target="_blank" href="mailto:cuanmartinez@college.harvard.edu">
+                        <span class="glyphicon glyphicon-envelope envelope"></span>
+                    </a>
+                </div>
+            </li>
+        </ul>
     </div>
     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

@@ -192,6 +192,17 @@ div.title-background{
     border:1em;
 }
 
+.envelope{
+    margin-left:105px;
+    font-size:60px;
+    color:#33FFFF;
+}
+
+.envelope:hover{
+    opacity:1;
+    color:#33FFFF;
+}
+
 .exp-date{
     position:relative;
     font-size:28px;
@@ -227,6 +238,16 @@ div.title-background{
     -webkit-transition: .5s ease-in-out;
     -moz-transition: .5s ease-in-out;
     transition: .5s ease-in-out;    
+}
+
+.floating-left{
+    display:block;
+    float:left;
+}
+
+.floating-right{
+    display:block;
+    float:right;
 }
 
 .git{
@@ -358,6 +379,7 @@ div.title-background{
     font-size:30px;
     line-height:25%;
     color:#606060;
+    margin:auto;
 }
 
 .skill-ind{
@@ -392,10 +414,17 @@ div.title-background{
     left:39%;
 }
 
+#about-me-clm{
+    list-style-type: none;
+    width:1700px;
+    margin:auto;
+    padding-right:100px;
+    padding-left:0px;
+}
+
 #about-me{
     position: relative;
     font-size:28px;
-    left:7%;
     bottom:67%;
 }
 
@@ -406,7 +435,7 @@ div.title-background{
 
 #arrow-down{
     position:relative;
-    left:45%;
+    text-align:center;
     bottom:4em;
     background-color:transparent;
     border:none;
@@ -444,6 +473,14 @@ div.title-background{
     font-size:23px;
 }
 
+#contact{
+    list-style-type: none;
+    padding-right:20px;
+    padding-left:20px;
+    width:250px;
+    margin:auto;
+}
+
 #contact-link{
     position:fixed;
     left:84%;
@@ -455,7 +492,6 @@ div.title-background{
 #detail-block{
     font-size:28px;
     position:relative;
-    left:67%;
     bottom:114%
 }
 
@@ -483,11 +519,14 @@ div.title-background{
     bottom:20px;
     left:47%;
     z-index:1;
-    width:50px;
+    width:60px;
+    height:60px;
 }
 
 #fifth{
     line-height:58px;
+    background-color:#434242;;
+    height:620px;
 }
 
 #first{
@@ -583,12 +622,17 @@ div.title-background{
     bottom:50px;
 }
 
+#light{
+    color:#708889;
+}
+
 #linkedin-img{
     position:relative;
     bottom:20px;
     left:48%;
     z-index:1;
-    width:50px;
+    width:60px;
+    height:60;
 }
 
 #main-title{
@@ -622,13 +666,10 @@ div.title-background{
 }
 
 #profile-image{
-    width:25%;
-    height:67%;
-    vertical-align:middle;
+    width:550px;
+    height:500px;
     display:block;
-    margin: 0 auto;
-    padding-top:60px;
-    padding-bottom:45px;
+    margin:auto;
 }
 
 #projects-clm{
@@ -751,6 +792,10 @@ div.title-background{
 
 #skills-link{
     left:63.5%;
+}
+
+#space{
+    margin-top:20px;
 }
 
 #subtitle{
