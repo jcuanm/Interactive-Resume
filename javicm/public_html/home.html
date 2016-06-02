@@ -30,9 +30,9 @@ and open the template in the editor.
   <body>
 
 <!-- Home page link navigator -->
-    <table>
+    <table id="nav-bar">
         <tr>
-            <td><a href=""><img id="elephant-icon" alt="Elephant" src="images/ele-sym.png"></a></td>
+            <td><a><img onclick="stampede();move()" id="elephant-icon" alt="Elephant" src="images/ele-sym.png"></a></td>
             <td><a id="about-link" class="main-link-type" href="#about">ABOUT</a></td>
             <td><a id="experiences-link" class="main-link-type" href="#experiences">EXPERIENCES</a></td>
             <td><a id="skills-link" class="main-link-type" href="#skills">SKILLS</a></td>
@@ -40,7 +40,6 @@ and open the template in the editor.
             <td><a id="contact-link" class="emphasize-link" href="#contact">CONTACT</a></td>
         </tr>
     </table>
-    
     <!-- Home page -->
     <div class="title-background">
         <img src="images/home.jpg" alt="Home" id="home-img">
@@ -547,7 +546,7 @@ and open the template in the editor.
         </ul>
     </div>
 
-
+    <!-- Contact -->
     <div id="fifth" class="background1">
         <a name="contact"></a>
         <p id="light" class='title-header'>
@@ -580,13 +579,17 @@ and open the template in the editor.
                 </div>
             </li>
         </ul>
+        <div id="many-cute"></div>
     </div>
+
+    
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <!-- Includes main_script.js -->
     <script src="js/main_script.js"></script>
-  </body>
+    <script src="js/stampede.js"></script>
 </html>
 
