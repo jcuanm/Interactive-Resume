@@ -9,8 +9,8 @@ and open the template in the editor.
 */
 
 body{
-    max-width: 100%;
-    overflow-x: hidden;
+    width: 100%;
+    overflow-x:hidden;
     font-family: 'Lato', sans-serif;
     font-weight: 350;
 }
@@ -430,10 +430,10 @@ div.title-background{
 
 #about-me-clm{
     list-style-type: none;
-    width:1700px;
+    display:block;
+    width:1800px;
     margin:auto;
-    padding-right:100px;
-    padding-left:0px;
+    
 }
 
 #about-me{
@@ -507,7 +507,8 @@ div.title-background{
 #detail-block{
     font-size:28px;
     position:relative;
-    bottom:114%
+    bottom:114%;
+    right:150px;
 }
 
 #education-description{
@@ -693,11 +694,13 @@ div.title-background{
 }
 
 #profile-image{
+    position:relative;
     width:550px;
     height:500px;
     display:block;
     margin:auto;
     padding-right:20px;
+    right:120px;
 }
 
 #projects-clm{
