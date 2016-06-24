@@ -66,3 +66,19 @@ function move()
 	// This is what repeats the function over and over so that the images move
 	setTimeout(move,20);
 }
+
+function adapt(){
+	var sys = navigator.platform;
+
+	//Checks to see if the system is a MAC
+	if (sys.toUpperCase().indexOf('MAC') >= 0)
+	{
+		console.log("Yup, this is a Mac");
+		var body = document.getElementsByTagName("BODY");
+		body.style.zoom = "75%"; 
+	}
+	else
+	{
+		console.log("This is not a Mac!")
+	}
+}
