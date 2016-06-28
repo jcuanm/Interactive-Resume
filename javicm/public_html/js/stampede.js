@@ -79,6 +79,6 @@ function adapt(){
 	}
 	else
 	{
-		console.log("This is not a Mac!")
+		console.log("This is not a Mac");
 	}
 }
