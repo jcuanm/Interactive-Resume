@@ -2,11 +2,11 @@ window.onload = function(){
 	var sys = navigator.platform;
 
 	//Checks to see if the system is a MAC
-	if (sys.toUpperCase().indexOf('MAC') >= 0)
+	if (sys.toUpperCase().indexOf('WIN') < 0)
 	{
 		console.log("Yup, this is a Mac");
 		var body = document.getElementsByTagName("BODY");
-		body.style.zoom = "67%"; 
+		document.body.style.zoom = "75%"; 
 	}
 	else
 	{
