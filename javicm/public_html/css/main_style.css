@@ -47,16 +47,9 @@ a.emphasize-link{
     -moz-transition:background-color .5s;
 }
 
-a.emphasize-link:hover{
-    color:black;
-    border-color:white;
-    background-color:white;
-    text-decoration: none;
-}
-
 a.emphasize-link{
     z-index:2;
-    border: .1em solid white;
+    border: none;
     text-decoration:none;
     color:white;
     letter-spacing:1px;
@@ -64,8 +57,9 @@ a.emphasize-link{
     padding-top:.45em;
     padding-bottom:.45em;
     background-color:transparent;
+    opacity:.5;
     
-    -webkit-animation:fadein 2s;
+    -webkit-animation:fadein2 2s;
     -webkit-transition:color .5s;
     -webkit-transition:background-color .5s;
     -moz-animation:fadein 2s;
@@ -74,7 +68,8 @@ a.emphasize-link{
 }
 
 a.emphasize-link:hover{
-    color:black;
+    opacity:1;
+    color:#3fb0ac;
     border-color:white;
     background-color:white;
     text-decoration: none;
@@ -492,16 +487,16 @@ div.title-background{
     list-style-type: none;
     padding-right:20px;
     padding-left:20px;
-    width:250px;
+    width:300px;
     margin:auto;
 }
 
 #contact-link{
     position:fixed;
-    left:84%;
+    left:83.5%;
     top:15px;
-    padding-left:1.62em;
-    padding-right:1.6em;
+    padding-left:.5em;
+    padding-right:.5em;
 }
 
 #detail-block{
@@ -561,7 +556,6 @@ div.title-background{
 
 #fifth{
     line-height:58px;
-    background-color:#434242;;
     height:620px;
 }
 
@@ -826,7 +820,9 @@ div.title-background{
 }
 
 #space{
-    margin-top:20px;
+    position:relative;
+    bottom:75px;
+    margin-left:25px;
 }
 
 #subtitle{
