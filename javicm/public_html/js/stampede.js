@@ -1,4 +1,5 @@
 window.onload = function(){
+
 	var sys = navigator.platform;
 
 	//Checks to see if the system is a MAC
@@ -13,6 +14,7 @@ window.onload = function(){
 		console.log("This is not a Mac");
 	}
 }
+
 
 function stampede()
 {
