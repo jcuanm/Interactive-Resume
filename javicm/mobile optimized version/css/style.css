@@ -93,6 +93,40 @@ body{
 	color:#055A79;
 }
 
+.navbar{
+	background-color: grey;
+	opacity: .6;
+	position:fixed;
+	z-index:1;
+
+	-webkit-animation: fadeinNavbar 1.5s;
+    -moz-animation: fadeinNavbar 1.5s;
+}
+
+.navheader:link{
+	color:white;
+	float:right;
+	font-size: 23px;
+	padding:20px;
+	opacity:.6;
+	text-decoration:none;
+
+	-webkit-transition: opacity .5s; /* For Safari 3.1 to 6.0 */
+    transition: opacity .5s;
+}
+
+.navheader:hover {
+	color:white;
+	text-decoration: none;
+	opacity:1;	
+}
+
+.navheader:visited,.navheader:active{
+    color: white;
+    opacity:.6;
+    text-decoration: none;
+}
+
 .project1{
 	height:400px;
     width:275px;
@@ -185,7 +219,7 @@ body{
 }
 
 .skill{
-	text-align: left;
+	text-align: center;
 	font-size:28px;
 }
 
@@ -219,6 +253,19 @@ body{
 
 #butt{
 	padding-top:30px;
+}
+
+#contact-link:link{
+	-webkit-transition: opacity .5s; /* For Safari 3.1 to 6.0 */
+    transition: opacity .5s;
+
+	-webkit-transition: color .5s; /* For Safari 3.1 to 6.0 */
+    transition: color .5s;
+}
+
+#contact-link:hover{
+	color:#00CCCC;
+	opacity:1;
 }
 
 #ed-title{
@@ -283,6 +330,11 @@ body{
 @keyframes fadein{
     from {opacity:0}
     to{opacity:1}
+} 
+
+@keyframes fadeinNavbar{
+    from {opacity:0}
+    to{opacity:.6}
 } 
 
 @media screen and (max-width:768px) {
@@ -350,6 +402,11 @@ body{
 		right:5px;
 		height:50px;
 		width:50px;
+	}
+
+	.navheader:link{
+		font-size: 15px;
+		padding:6px;
 	}
 
 	.project1{
