@@ -275,6 +275,13 @@ body{
 	padding-top:20px;
 }
 
+#elephant-logo{
+	float:left;
+	width:100px;
+	height:70px;
+	padding:5px;
+}
+
 #envelope{
 	font-size:90px;
     color:#33FFFF;
@@ -298,11 +305,35 @@ body{
 	height:80px;
 }
 
+#hcs-logo-img{
+	float:right;
+	width:80px;
+	height:80px;
+}
+
+#innogy-img{
+	float:right;
+	width:60px;
+	height:90px;
+}
+
+#jda-img{
+	float:right;
+	width:60px;
+	height:70px;
+}
+
 #linkedin-img{
 	width:90px;
     height:90px;
     display:block;
     margin:0 auto;
+}
+
+#microsoft-img{
+	float:right;
+	width:60px;
+	height:60px;
 }
 
 #profile-img{
@@ -338,6 +369,12 @@ body{
 } 
 
 @media screen and (max-width:768px) {
+	#elephant-logo{
+		width:40px;
+		height:30px;
+		padding:2px;
+	}
+
 	#envelope{
 		font-size:50px;
 	}
@@ -355,6 +392,26 @@ body{
 	#harvard-img{
 		width:40px;
 		height:50px;
+	}
+
+	#hcs-logo-img{
+		width:50px;
+		height:50px;
+	}
+
+	#innogy-img{
+		width:40px;
+		height:60px;
+	}
+
+	#jda-img{
+		width:40px;
+		height:40px;
+	}
+
+	#microsoft-img{
+		width:40px;
+		height:40px;
 	}
 
 	#linkedin-img{
