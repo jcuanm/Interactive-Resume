@@ -4,6 +4,67 @@ body{
     background-color:#1d2120;
 }
 
+.distinction1{
+	height:210px;
+    width:300px;
+    float:right;
+}
+
+.distinction2{
+	height:210px;
+    width:300px;
+    float:left;
+}
+
+.distinction-desc{
+	padding:5px;
+	height:210px;
+	opacity:0;
+    width:300px;
+    position:relative;
+    left:300px;
+    float:right;
+    background-color:#000033;
+    color:#6ed3cf;
+    text-align: center;
+
+    transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+}
+
+.distinction-desc:hover{
+	opacity:.8;
+}
+
+.distinction-desc p{
+	font-size: 15px;
+}
+
+.distinction-desc2{
+	height:210px;
+	opacity:0;
+    width:300px;
+    position:relative;
+    right:300px;
+    float:left;
+    background-color:#000033;
+    color:#6ed3cf;
+    text-align: center;
+    padding:5px;
+
+    transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
+}
+
+.distinction-desc2:hover{
+	opacity:.8;
+}
+
+.distinction-desc2 p{
+	font-size: 15px;
+}
 .background1{
 	background-color: #3fb0ac;
 	padding: 30px;
@@ -27,12 +88,12 @@ body{
 }
 
 .carousel-caption{
-	left:0;
+	left:130px;
 	right:0;
 	bottom:0;
 	top:50px;
 	margin:0 auto;
-	color: #3fb0ac;
+	color: #FA92E2;
 	font-size:70px;
 }
 
@@ -52,6 +113,17 @@ body{
 	float:right;
 	padding:5px;
 }
+
+.exp-link{
+    color:hotpink
+}
+
+.exp-title{
+	background-color:#6ed3cf;
+	text-align:center;
+	font-size:36px;
+	padding-top:20px;
+}	
 
 .fire{
 	color:red;
@@ -77,17 +149,6 @@ body{
     right:40px;
     float:right;
 }
-
-.exp-link{
-    color:hotpink
-}
-
-.exp-title{
-	background-color:#6ed3cf;
-	text-align:center;
-	font-size:36px;
-	padding-top:20px;
-}	
 
 .mini-title{
 	color:#055A79;
@@ -161,7 +222,7 @@ body{
 }
 
 .project-desc p{
-	font-size: 20px;
+	font-size: 15px;
 	
 }
 
@@ -187,7 +248,7 @@ body{
 }
 
 .project-desc2 p{
-	font-size: 20px;
+	font-size: 15px;
 }
 
 .quote{
@@ -423,9 +484,6 @@ body{
         padding: 20px;
     }
 
-	.quote{
-		font-size:15px;
-	}
 
     .background1 {
     	font-size:20px;
@@ -446,6 +504,48 @@ body{
     }
 
 	.description{
+		font-size:10px;
+	}
+
+	.distinction1{
+		height:120px;
+	    width:160px;
+		
+	}
+
+	.distinction2{
+		height:125px;
+	    width:200px;
+	 	position:relative;
+		float:center;
+	}
+
+	.distinction-desc{
+		height:120px;
+	    width:160px;
+	    font-size:10em;
+	    left:23px;
+	}
+
+	.distinction-desc h3{
+		font-size:10px;
+	}
+
+	.distinction-desc p{
+		font-size:10px;
+	}
+
+	.distinction-desc a{
+		font-size:15px;
+
+	}
+
+	.distinction-desc span{
+		position:relative;
+		bottom:35px;
+	}
+
+	.exp-link{
 		font-size:10px;
 	}
 
@@ -483,7 +583,6 @@ body{
 	.project-desc{
 		height:200px;
 	    width:125px;
-	    font-size:10em;
 	    left:23px;
 	}
 
@@ -492,7 +591,20 @@ body{
 	}
 
 	.project-desc p{
+		font-size:8px;
+	}
+
+	.project-desc a{
 		font-size:10px;
+		position:relative;
+		bottom:10px;
+		right:10px
+	}
+
+	.project-desc span{
+		position:relative;
+		top:-10px;
+		right:10px;
 	}
 
 	.project-desc2{
@@ -508,6 +620,10 @@ body{
 
 	.project-desc2 p{
 		font-size:10px;
+	}
+
+	.quote{
+		font-size:15px;
 	}
 
     .school{
