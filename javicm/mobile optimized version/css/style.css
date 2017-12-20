@@ -372,12 +372,6 @@ body{
 	height:80px;
 }
 
-#promazo-logo-img{
-	float:right;
-	width:80px;
-	height:80px;
-}
-
 #innogy-img{
 	float:right;
 	width:60px;
@@ -412,6 +406,12 @@ body{
 	padding-top:25px;
 }
 
+#promazo-logo-img{
+	float:right;
+	width:80px;
+	height:80px;
+}
+
 #reference{
 	padding:20px;
 }
@@ -421,8 +421,25 @@ body{
 }
 
 #title-background{
+	height:auto;
+    margin: auto;
+    text-align:center;
+    position:relative;
+
 	-webkit-animation: fadein 1.5s;
     -moz-animation: fadein 1.5s;
+}
+
+#title{
+	position: absolute;
+    margin: auto;
+	font-size:60px;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    color:#009999;
+    height:550px;
 }
 
 @keyframes fadein{
@@ -490,6 +507,14 @@ body{
         padding: 20px;
     }
 
+	#promazo-logo-img{
+		height:50px
+	}
+
+	#title{
+		font-size: 20px;
+		height:45px;
+	}
 
     .background1 {
     	font-size:20px;
