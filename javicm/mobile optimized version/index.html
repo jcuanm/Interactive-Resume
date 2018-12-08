@@ -10,10 +10,13 @@
 
     <!-- Bootstrap -->
     <link rel="shortcut icon" href="images/favicon.ico">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/main_script.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,24 +31,24 @@
       <!-- Nav Bar -->
       <div class="row">
         <div class="col-xs-12 col-lg-12 navbar">
-			<img src="images/ele-sym.png" alt="Elephant" id="elephant-logo">
-			<a class="navheader" href="#contact" id="contact-link" >Contact</a>
-			<a class="navheader" href="#distinctions">Distinctions</a>
-			<a class="navheader" href="#projects">Projects</a>
-			<a class="navheader" href="#skills">Skills</a>
-			<a class="navheader" href="#experiences">Experiences</a>
-			<a class="navheader" href="#about">About</a>
+          <img src="images/ele-sym.png" alt="Elephant" id="elephant-logo">
+          <a class="navheader" href="#contact" id="contact-link" >Contact</a>
+          <a class="navheader" href="#distinctions">Distinctions</a>
+          <a class="navheader" href="#projects">Projects</a>
+          <a class="navheader" href="#skills">Skills</a>
+          <a class="navheader" href="#experiences">Experiences</a>
+          <a class="navheader" href="#about">About</a>
         </div>
       </div>
 
       <!-- Home Page -->
       <div class="row">
         <div id="title-background" class="col-xs-12">
-            <img src="images/home.jpg" alt="Home" class="img-responsive center-block">
-			<h1 id="title">
-				Javier Cuan-Martinez<br>
-				Interactive Resume
-			</h1>
+          <img src="images/home.jpg" alt="Home" class="img-responsive center-block">
+          <h1 id="title">
+            Javier Cuan-Martinez<br>
+            Interactive Resume
+          </h1>
         </div>
       </div>
 
@@ -63,13 +66,16 @@
           <span class='mini-title'>
             <b>Name:</b>
           </span><br>
-          Javier Cuan-Martinez<br>
+          Javier Cuan-Martinez<br><br>
           
           <span class='mini-title'><b>Age:</b></span><br>
-          22 years<br>
+          22 years<br><br>
           
           <span class='mini-title'> <b>Languages:</b></span><br>
-          English, Spanish, German
+          English, Spanish, German<br><br>
+
+          <span class='mini-title'> <b>Github:</b></span><br>
+          @jcuanm
         </div>
 
         <div class="col-lg-4 col-xs-12">
@@ -179,18 +185,20 @@
         <div class="col-lg-3 col-xs-3">
           <p class="career-column">
             <b>EF Education First</b><br>
-            <span class="sub-title">June 2017 - Present</span>
+            <span class="sub-title">September 2018 - Present</span>
           </p>
         </div>
 
         <div class="col-lg-6 col-xs-6 description">
           <p><b>Software Developer</b><br>
             <span class="sub-title">
-              I spearheaded the management of the company's cultural exchange program's first data warehouse. This includes
-              implementing the star schema, data marts, and data cleaning/filtering. Furthermore, using the React Native framework, 
-              I developed a drag-and-drop library for the EF Tours app that eases the effort of managing a user's TODO items. 
-              The app was released to more than 2000 EF tour directors who facilitate international family tours. I had no prior experience 
-              with React Native or data warehouse concepts before starting this position.
+              I worked with both the App Development and Data Engineering team at different times in an Agile work environment.
+              During my time with the data engineering team, I spearheaded the development of various Amazon Web Services' (AWS) Kinesis
+              pipelines that now route event-driven data from products in EF to S3 buckets that currently allow 
+              the team to run data analytics on user input. While on the app developemnt team, I developed a React Native 
+              drag-and-drop board library for the EF Tours app that eases the effort of managing a user's TODO items on 
+              both iOS and Android. The app was released to more than 2000 EF tour directors who facilitate international 
+              family tours. I had no prior experience with React Native or AWS before starting this position.
             </span>
           </p>
         </div>
@@ -262,9 +270,9 @@
         <div class="col-lg-6 col-xs-6 description">
           <p><b>Data Visualizations and Systems Analyst </b><br>
             <span class="sub-title">
-				I was part of a team that used the JavaScript D3 library to create visualizations to find patterns
-				within energy-use data. These patterns were used to determine energy usage, make improvements
-				and manage electricity in the Ruhr Valley in Germany.<br>
+              I was part of a team that used the JavaScript D3 library to create visualizations to find patterns
+              within energy-use data. These patterns were used to determine energy usage, make improvements
+              and manage electricity in the Ruhr Valley in Germany.<br>
               <span class="glyphicon glyphicon-link exp-link"></span>
               <a target="_blank" href="https://iam.innogy.com/en/about-innogy">innogy</a>
             </span>
@@ -296,11 +304,11 @@
         <div class="col-lg-6 col-xs-6 description">
           <p><b>President</b><br>
             <span class="sub-title">
-				I spearheaded the establishment of HCS's first successful membership system and 
-				community outreach program. I also manage HCS, a club with funds reaching over 
-				$40,000 and email list servers that span over 4000 students on campus. Negotiating 
-				sponsorship deals with external companies, such as Microsoft and Google, is also a 
-				major aspect of my job.<br>
+              I spearheaded the establishment of HCS's first successful membership system and 
+              community outreach program. I also manage HCS, a club with funds reaching over 
+              $40,000 and email list servers that span over 4000 students on campus. Negotiating 
+              sponsorship deals with external companies, such as Microsoft and Google, is also a 
+              major aspect of my job.<br>
               <span class="glyphicon glyphicon-link exp-link"></span>
               <a target="_blank" href="https://www.hcs.harvard.edu/">HCS</a>
             </span>
@@ -500,79 +508,109 @@
         <p id="reference">
           <i>This interactive resume was built from scratch using CSS, HTML, and Javascript</i>
         </p>
-
-        <a target="_blank" href="https://github.com/jcuanm/Interactive-Resume" class="btn btn-primary">View project on Github</a>
+        <a target="_blank" href="https://github.com/jcuanm/Interactive-Resume" class="btn btn-primary">
+          View project on Github
+        </a>
       </div>
 
-      <div id="proj-butt" class="row color2">
-
-        <div class="col-lg-6 col-xs-12 col-md-12">
-            <img class="project1" src="images/woman-red.jpg" alt="Through the Eyes of a Survivor">
-            <div class="project-desc">
-              <h3><i>Through the Eyes of a Survivor</i></h3>
-              <p>Understanding the epidemic of sexual assault on American college campuses: a project for Harvard's Data Visualization course built using Javascript's D3 library</p>
-              <span class="glyphicon glyphicon-link exp-link"></span>
-              <a target="_blank" href="https://hathix.github.io/through-the-eyes-of-a-survivor/">website</a>
-              <a target="_blank" href="https://www.youtube.com/watch?v=prOCyoFYOUo&feature=youtu.be">
-                <img class="youtube" src="images/youtube.png" alt="Youtube">
-              </a>
-              <a target="_blank" href="https://github.com/hathix/through-the-eyes-of-a-survivor"><img class="git" src="images/git.png" alt="GitHub"></a>
-            </div>
-        </div>
-
-        <div class="col-lg-6 col-xs-12 col-md-12">
-            <img class="project2" src="images/light-blue-cover.png" alt="Light Blue">
-            <div class="project-desc2">
-              <h3><i>Light Blue</i></h3>
-              <p> A Chess AI built in Python that recommends chess moves according to the specific configuration of the board</p>
-              <a target="_blank" href="https://www.youtube.com/watch?v=VVTTtx8TDfs"><img class="youtube" src="images/youtube.png" alt="Youtube"></a>
-              <a target="_blank" href="https://github.com/jcuanm/light_blue"><img class="git" src="images/git.png" alt="GitHub"></a>
-            </div>
+      <div class="row color2 space">
+        <div class="col-lg-12 col-xs-12">
+          <!-- Space -->
         </div>
       </div>
 
-      <div id="proj-butt" class="row color2">
-        <div class="col-lg-6 col-xs-12 col-md-12">
-            <img class="project1" src="images/crimson-flush.png" alt="Crimson Flush">
-            <div class="project-desc">
-              <h3><i>Crimson Flush</i></h3>
-              <p>Using Android Studios, I developed an Android app that locates bathrooms within Harvard University's main yard.</p>
-              <a target="_blank" href="https://www.youtube.com/watch?v=o4r5Qup6F0g"><img class="youtube" src="images/youtube.png" alt="Youtube"></a>
-              <a target="_blank" href="https://github.com/jcuanm/Crimson-Flush"><img class="git" src="images/git.png" alt="GitHub"></a>
-            </div>
+      <div class="row color2">
+        <div class="col-lg-2">
+          <!-- Placeholder -->
         </div>
 
-        <div class="col-lg-6 col-xs-12 col-md-12">
-            <img class="project2" src="images/hcs-news-cover.png" alt="HCS Newsletter">
-            <div class="project-desc2">
-              <h3><i>HCS Newsletter</i></h3>
-              <p>Using HTML and CSS, I created interactive newsletters that were distributed to everyone on our mailing-lists.</p>
-              <a target="_blank" href="https://github.com/jcuanm/HCS_Newsletter"><img class="git" src="images/git.png" alt="GitHub"></a>
-            </div>
+        <div class="col-lg-4 project col-xs-12">
+          <h3>
+            Drag-and-Drop Board
+          </h3>
+          <p>
+            Using the React Native framework, I developed a drag-and-drop board library for 
+            the EF Tours app that eases the effort of managing a user's TODO items. 
+            The app was released to more than 2000 EF tour directors who facilitate 
+            international family tours. 
+          </p>
+          <a target="_blank" href="https://github.com/jcuanm/dragAndDrop">
+            <img class="git" src="images/git.png" alt="GitHub">
+          </a>
         </div>
+
+        <div class="col-lg-1">
+          <!-- Placeholder -->
+        </div>
+        
+        <div class="col-lg-4 project col-xs-12">
+          <h3>
+            Through the Eyes of a Survivor
+          </h3>
+          <p>
+            Understanding the epidemic of sexual assault on American college campuses: a 
+            project for Harvard's Data Visualization course built using Javascript's D3 library. This project 
+            won first place out of a pool of about 20 other projects. View the project website
+            <a target="_blank" href="https://hathix.github.io/through-the-eyes-of-a-survivor/">here</a>.
+          </p>
+          <a target="_blank" href="https://www.youtube.com/watch?v=prOCyoFYOUo&feature=youtu.be">
+            <img class="youtube" src="images/youtube.png" alt="Youtube">
+          </a>
+          <a target="_blank" href="https://github.com/hathix/through-the-eyes-of-a-survivor">
+            <img class="git" src="images/git.png" alt="GitHub">
+          </a>
+        </div>
+
+        <div class="col-lg-1">
+          <!-- Placeholder -->
+        </div>
+
       </div>
 
-      <div id="proj-butt" class="row color2">
-        <div class="col-lg-6 col-xs-12 col-md-12">
-            <img class="project1" src="images/algorithms.png" alt="Algorithms">
-            <div class="project-desc">
-              <h3><i>Algorithms</i></h3>
-              <p>
-                Implemented Strassen's, Prim's, and Heuristic Randomness Algorithms in different computing languages that range from Python to C.<br>
-                <i> (Please let me know if you would like the links to the code)</i>
-              </p>
-            </div>
+      <div class="row color2">
+        <div class="col-lg-2">
+          <!-- Placeholder -->
         </div>
 
-        <div class="col-lg-6 col-xs-12 col-md-12">
-            <img class="project2" src="images/fruit-cover.png" alt="Fruit Frontier">
-            <div class="project-desc2">
-              <h3><i>Fruit Frontier</i></h3>
-              <p>Computer game that was built using Python's Pygame library</p>
-              <a target="_blank" href="https://youtu.be/qxemTNqkqu4"><img class="youtube" src="images/youtube.png" alt="Youtube"></a>
-              <a target="_blank" href="https://github.com/jcuanm/Fruit-Frontier"><img class="git" src="images/git.png" alt="GitHub"></a>
-            </div>
+        <div class="col-lg-4 project col-xs-12">
+          <h3>
+            Pluggable Authentication Library (PAM) Application for Linux  
+          </h3>
+          <p>
+            Using C++, I developed a customizable library that makes it easier for Linux applications to 
+            authenticate users. This library was integrated into Microsoft's SQL Server on Linux in 2018.
+          </p>
+          <a target="_blank" href="https://www.youtube.com/watch?v=dDYQuUHkBpg&t=1s">
+            <img class="youtube" src="images/youtube.png" alt="Youtube">
+          </a>
         </div>
+
+        <div class="col-lg-1">
+          <!-- Placeholder -->
+        </div>
+        
+        <div class="col-lg-4 project col-xs-12">
+          <h3>
+            Light Blue: Chess Playing AI
+          </h3>
+          <p>
+            Using Python, I and a group of two others developed a chess AI that recommends chess moves 
+            according to the specific configuration of the board. I was in charge of the regular expressions
+            that scraped the website from which our AI learns to play, as well as implementing the graph data 
+            structure that we used to store the board configurations. 
+          </p>
+          <a target="_blank" href="https://www.youtube.com/watch?v=VVTTtx8TDfs">
+            <img class="youtube" src="images/youtube.png" alt="Youtube">
+          </a>
+          <a target="_blank" href="https://github.com/jcuanm/light_blue">
+            <img class="git" src="images/git.png" alt="GitHub">
+          </a>
+        </div>
+
+        <div class="col-lg-1">
+          <!-- Placeholder -->
+        </div>
+  
       </div>
 
       <div id="space" class="row color2">
@@ -582,7 +620,7 @@
       </div>
 
       <!-- Distinctions -->
-   <div class="row">
+      <div class="row">
         <a name="distinctions"></a>
         <div class="col-lg-12 col-xs-12 sec-title1">
           Distinctions<br>
@@ -720,7 +758,7 @@
         </div>
       </div>
 
-      <div id="space" class="row color2">
+      <div class="row color2 space">
         <div class="col-lg-12 col-xs-12">
           <!-- Space -->
         </div>
@@ -748,8 +786,5 @@
 
     </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript"></script>
-    <script src="js/main_script.js" type="text/javascript"></script>
   </body>
 </html>

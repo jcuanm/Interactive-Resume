@@ -123,31 +123,12 @@ body{
 	text-align:center;
 	font-size:36px;
 	padding-top:20px;
-}	
-
-.fire{
-	color:red;
-	float:right;
-	padding:5px;
-
-	-webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;    
-}
-
-.fire:hover{
-	-webkit-transform:rotate(360deg);
-    -moz-transform:rotate(360deg);
-    transform:rotate(360deg)   
 }
 
 .git{
-	width:100px;
-    height:100px;
-    position:relative;
-    top:80px;
-    right:40px;
-    float:right;
+	width:80px;
+    height:70px;
+	padding-left: 10px;
 }
 
 .mini-title{
@@ -188,67 +169,10 @@ body{
     text-decoration: none;
 }
 
-.project1{
-	height:400px;
-    width:275px;
-    float:right;
-}
-
-.project2{
-	height:400px;
-    width:275px;
-    float:left;
-}
-
-.project-desc{
-	padding:5px;
-	height:400px;
-	opacity:0;
-    width:275px;
-    position:relative;
-    left:275px;
-    float:right;
-    background-color:#000033;
-    color:#6ed3cf;
-    text-align: center;
-
-    transition: opacity .5s ease-in-out;
-    -moz-transition: opacity .5s ease-in-out;
-    -webkit-transition: opacity .5s ease-in-out;
-}
-
-.project-desc:hover{
-	opacity:.8;
-}
-
-.project-desc p{
-	font-size: 15px;
-	
-}
-
-.project-desc2{
-	height:400px;
-	opacity:0;
-    width:275px;
-    position:relative;
-    right:275px;
-    float:left;
-    background-color:#000033;
-    color:#6ed3cf;
-    text-align: center;
-    padding:5px;
-
-    transition: opacity .5s ease-in-out;
-    -moz-transition: opacity .5s ease-in-out;
-    -webkit-transition: opacity .5s ease-in-out;
-}
-
-.project-desc2:hover{
-	opacity:.8;
-}
-
-.project-desc2 p{
-	font-size: 15px;
+.project{
+	color:black;
+	font-size:25px;
+	padding-bottom: 15px
 }
 
 .quote{
@@ -293,6 +217,10 @@ body{
 	background-color:#05D3DA
 }
 
+.space{
+	height:20px;
+}
+
 .sub-title{
 	text-align: center;
 	font-size:25px;
@@ -301,9 +229,6 @@ body{
 .youtube{
 	height:40px;
     width:70px;
-    position:relative;
-    left:40px;
-    top:130px;
     float:left;
 }
 
@@ -408,10 +333,6 @@ body{
 	height:450px;
 }
 
-#proj-butt{
-	padding-top:25px;
-}
-
 #promazo-logo-img{
 	float:right;
 	width:80px;
@@ -420,10 +341,6 @@ body{
 
 #reference{
 	padding:20px;
-}
-
-#space{
-	height:20px;
 }
 
 #title-background{
@@ -531,6 +448,10 @@ body{
 		height:50px
 	}
 
+	#reference{
+		font-size: 15px
+	}
+
 	#title{
 		font-size: 20px;
 		height:45px;
@@ -553,10 +474,6 @@ body{
 
     .career-column{
     	font-size:10px;
-    }
-
-    .carousel-caption {
-        font-size: 20px;
     }
 
 	.description{
@@ -611,10 +528,8 @@ body{
 	}
 
 	.git{
-		top:-10px;
-		right:5px;
 		height:50px;
-		width:50px;
+		width:60px;
 	}
 
 	.navheader:link{
@@ -622,59 +537,11 @@ body{
 		padding:6px;
 	}
 
-	.project1{
-		height:200px;
-	    width:125px;
-	 	position:relative;
-	 	right:30.8%;
-	}
-
-	.project2{
-		height:200px;
-	    width:125px;
-	 	position:relative;
-	 	left:30.8%;
-	}
-
-	.project-desc{
-		height:200px;
-	    width:125px;
-	    left:23px;
-	}
-
-	.project-desc h3{
+	.project{
 		font-size:10px;
 	}
 
-	.project-desc p{
-		font-size:8px;
-	}
-
-	.project-desc a{
-		font-size:10px;
-		position:relative;
-		bottom:10px;
-		right:10px
-	}
-
-	.project-desc span{
-		position:relative;
-		top:-10px;
-		right:10px;
-	}
-
-	.project-desc2{
-		height:200px;
-	    width:125px;
-	    font-size:10em;
-	    right:23px;
-	}
-
-	.project-desc2 h3{
-		font-size:10px;
-	}
-
-	.project-desc2 p{
+	.project h3{
 		font-size:10px;
 	}
 
