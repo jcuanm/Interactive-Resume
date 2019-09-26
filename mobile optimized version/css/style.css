@@ -279,6 +279,12 @@ body{
     color:#33FFFF;
 }
 
+#everquote-logo{
+	float:right;
+	width:140px;
+	height:70px;
+}
+
 #facebook-img{
     width:90px;
     height:90px;
@@ -326,6 +332,12 @@ body{
 	float:right;
 	width:60px;
 	height:60px;
+}
+
+#molinillo-logo{
+	float:right;
+	width:70px;
+	height:70px;
 }
 
 #profile-img{
